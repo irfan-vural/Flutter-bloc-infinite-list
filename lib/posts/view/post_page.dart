@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 import 'package:flutter_infinite_list/posts/view/post_list.dart';
 
 class PostsPage extends StatelessWidget {
-  const PostsPage();
+  const PostsPage({super.key});
 
   @override
   Widget build(BuildContext context) {
