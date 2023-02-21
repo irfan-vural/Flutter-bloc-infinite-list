@@ -5,10 +5,7 @@ class SimpleBlocObserver extends BlocObserver {
   const SimpleBlocObserver();
 
   @override
-  void onTransition(
-    Bloc bloc,
-    Transition transition,
-  ) {
+  void onTransition(Bloc bloc, Transition transition) {
     print('bloc $bloc');
     super.onTransition(bloc, transition);
     print(transition);
